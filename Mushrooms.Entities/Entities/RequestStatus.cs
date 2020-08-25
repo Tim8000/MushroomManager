@@ -9,6 +9,7 @@ namespace Mushrooms.Entities.Entities
     public class RequestStatus
     {
         public byte Id { get; set; }
+
         [MaxLength(30)]
         public string Name { get; set; }
     }
